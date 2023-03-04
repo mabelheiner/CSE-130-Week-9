@@ -1,0 +1,9 @@
+num <- input()
+ASSERT num > 0
+
+WHILE index > num:
+  new_num <- num_list[index-2] + num_list[index-1]
+  num_list.append(new_num)
+  index <- index += 1
+  
+PRINT(num_list[-1])
